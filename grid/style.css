@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 200vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 380px 380px 380px; */
+    
+    /* grid-template-areas: 
+        "header header bonu"
+        "body body body"
+        " . footer Rahimboy"
+    ; */
+    grid-row-gap: 107px;
+    grid-column-gap: 17px;
+
+}
+.item1{
+    width: 300px;
+    height: 380px;
+    grid-column: bonu;
+    grid-row: Rahimboy;
+}
+.item2{
+    width: 300px;
+    height: 380px;
+}
+.item3{
+    width: 300px;
+    height: 380px;
+}
+.item4{
+    width: 300px;
+    height: 380px;
+}
+.item5{
+    width: 300px;
+    height: 380px;
+}
+.item6{
+    width: 300px;
+    height: 380px;
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
+.item7{
+    width: 300px;
+    height: 380px;
+}
+.item8{
+    width: 300px;
+    height: 380px;
+}
+.item9{
+    width: 300px;
+    height: 380px;
+}
